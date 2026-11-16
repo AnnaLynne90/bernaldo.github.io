@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to Build a Free Portfolio Website with GitHub and Claude</title>
+<meta name="description" content="Build a free portfolio website with Claude and GitHub Pages, step by step: write the page, upload it, publish it, then get it indexed on Google.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://annalynne90.github.io/bernaldo.github.io/blog/free-portfolio-website-github-claude/">
+<meta name="author" content="Annalyn Bernaldo">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Annalyn Bernaldo">
+<meta property="og:locale" content="en_PH">
+<meta property="og:url" content="https://annalynne90.github.io/bernaldo.github.io/blog/free-portfolio-website-github-claude/">
+<meta property="og:title" content="How to Build a Free Portfolio Website with GitHub and Claude">
+<meta property="og:description" content="A no-coding, step-by-step guide: Claude writes your portfolio, GitHub Pages hosts it for free, and Search Console gets it on Google.">
+<meta property="og:image" content="https://annalynne90.github.io/bernaldo.github.io/images/blog/free-portfolio-website-github-claude-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Build a free portfolio website with GitHub and Claude">
+<meta property="article:published_time" content="2026-11-17">
+<meta property="article:author" content="Annalyn Bernaldo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Build a Free Portfolio Website with GitHub and Claude">
+<meta name="twitter:description" content="A no-coding, step-by-step guide to a free portfolio website with Claude and GitHub Pages.">
+<meta name="twitter:image" content="https://annalynne90.github.io/bernaldo.github.io/images/blog/free-portfolio-website-github-claude-og.jpg">
+<meta name="theme-color" content="#FBF7F0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23B5571C'/%3E%3Ctext x='16' y='21.5' font-family='Georgia,serif' font-size='15' font-weight='700' fill='%23FBF7F0' text-anchor='middle'%3EAB%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="../../images/blog/free-portfolio-website-github-claude-featured.webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../blog.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"BlogPosting","@id":"https://annalynne90.github.io/bernaldo.github.io/blog/free-portfolio-website-github-claude/#article",
+ "headline":"How to Build a Free Portfolio Website with GitHub and Claude",
+ "description":"Build a free portfolio website with Claude and GitHub Pages, step by step: write the page, upload it, publish it, then get it indexed on Google.",
+ "image":["https://annalynne90.github.io/bernaldo.github.io/images/blog/free-portfolio-website-github-claude-og.jpg","https://annalynne90.github.io/bernaldo.github.io/images/blog/free-portfolio-website-github-claude-featured.webp"],
+ "datePublished":"2026-11-17","dateModified":"2026-11-17","inLanguage":"en",
+ "mainEntityOfPage":"https://annalynne90.github.io/bernaldo.github.io/blog/free-portfolio-website-github-claude/",
+ "keywords":"free portfolio website, GitHub Pages portfolio, Claude website builder",
+ "author":{"@type":"Person","@id":"https://annalynne90.github.io/bernaldo.github.io/#annalyn","name":"Annalyn Bernaldo","url":"https://annalynne90.github.io/bernaldo.github.io/","jobTitle":"E-commerce SEO Specialist"},
+ "publisher":{"@type":"Person","@id":"https://annalynne90.github.io/bernaldo.github.io/#annalyn","name":"Annalyn Bernaldo"},
+ "about":["Free portfolio website","GitHub Pages","Claude"]},
+{"@type":"BreadcrumbList","itemListElement":[
+ {"@type":"ListItem","position":1,"name":"Home","item":"https://annalynne90.github.io/bernaldo.github.io/"},
+ {"@type":"ListItem","position":2,"name":"Blog","item":"https://annalynne90.github.io/bernaldo.github.io/blog/"},
+ {"@type":"ListItem","position":3,"name":"Free Portfolio Website with GitHub and Claude"}]},
+{"@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Is GitHub Pages really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. GitHub Pages is free for public repositories on a free GitHub account, including HTTPS. Sites can be up to 1 GB and have a soft bandwidth limit of 100 GB per month, which is far more than a portfolio needs. You only pay if you buy a custom domain."}},
+ {"@type":"Question","name":"Do I need to know how to code?","acceptedAnswer":{"@type":"Answer","text":"No. Claude writes the HTML and CSS for you, and you upload the files through GitHub's website by dragging and dropping. It helps to read the page Claude creates and ask for changes in plain language."}},
+ {"@type":"Question","name":"Can a GitHub Pages site rank on Google?","acceptedAnswer":{"@type":"Answer","text":"Yes. Google indexes GitHub Pages sites like any other website. Verify the site in Google Search Console, submit a sitemap and request indexing to speed things up, and make sure the page has a clear title, meta description and headings."}},
+ {"@type":"Question","name":"Can I use my own domain name?","acceptedAnswer":{"@type":"Answer","text":"Yes. Buy a domain from a registrar, add it under Settings, then Pages, then Custom domain in your repository, point the domain's DNS records to GitHub, and turn on Enforce HTTPS."}},
+ {"@type":"Question","name":"Can I sell products from a GitHub Pages site?","acceptedAnswer":{"@type":"Answer","text":"No. GitHub says Pages isn't meant to be a free host for running an online business or for sensitive transactions like payments. A personal or freelance portfolio is a good fit."}}
+]}
+]}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../../" class="brand"><span class="dot"></span>Annalyn Bernaldo</a>
+    <div class="nav-links">
+      <a href="../../#work" class="hide-sm">Work</a>
+      <a href="../../#services" class="hide-sm">Services</a>
+      <a href="../" aria-current="page">Blog</a>
+      <a href="../../#contact" class="nav-cta">Let's talk</a>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb" style="position:static;background:none;border:0;backdrop-filter:none">
+    <ol>
+      <li><a href="../../">Home</a></li>
+      <li><a href="../">Blog</a></li>
+      <li aria-current="page">Free portfolio website</li>
+    </ol>
+  </nav>
+
+  <header class="a-head">
+    <div class="kicker">Step-by-step · No coding</div>
+    <h1>How to build a <em>free portfolio website</em> with GitHub and Claude</h1>
+    <p class="dek">The exact process I used to build and publish this site: Claude writes the page, GitHub Pages hosts it for free, and Google Search Console gets it indexed. No coding and no monthly fees.</p>
+    <div class="byline">
+      <img src="../../images/annalyn-bernaldo-seo-specialist-cebu.webp" width="52" height="52" alt="Annalyn Bernaldo">
+      <div class="who"><b>Annalyn Bernaldo</b><span>E-commerce SEO Specialist, Philippines · <time datetime="2026-11-17">November 17, 2026</time> · 14 min read</span></div>
+    </div>
+  </header>
+
+  <div class="hero-img">
+    <img src="../../images/blog/free-portfolio-website-github-claude-featured.webp" width="1600" height="840" alt="Build a free portfolio website with GitHub and Claude, by Annalyn Bernaldo" fetchpriority="high">
+  </div>
+
+  <div class="a-grid">
+    <aside class="toc" aria-label="Table of contents">
+      <div class="t">In this guide</div>
+      <ol>
+        <li><a href="#need">What you need</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#step-1">1. Gather your content</a></li>
+        <li><a href="#step-2">2. Prompt Claude</a></li>
+        <li><a href="#step-3">3. Refine the design</a></li>
+        <li><a href="#step-4">4. Get your files</a></li>
+        <li><a href="#step-5">5. Create a GitHub repo</a></li>
+        <li><a href="#step-6">6. Upload your files</a></li>
+        <li><a href="#step-7">7. Turn on GitHub Pages</a></li>
+        <li><a href="#step-8">8. Check the live site</a></li>
+        <li><a href="#step-9">9. Get it on Google</a></li>
+        <li><a href="#step-10">10. Update it later</a></li>
+        <li><a href="#troubleshooting">Troubleshooting</a></li>
+        <li><a href="#checklist">Checklist</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ol>
+    </aside>
+
+    <article class="prose">
+      <div class="tldr">
+        <div class="t">TL;DR</div>
+        <ul>
+          <li>Ask Claude to build a one-page portfolio from your bio, results and contact details, and refine it in plain language.</li>
+          <li>Create a free, public GitHub repository and upload the files, keeping <code>index.html</code> at the top level.</li>
+          <li>Turn on GitHub Pages under <em>Settings → Pages</em>, and your site is live within a couple of minutes.</li>
+          <li>Verify it in Google Search Console, submit a sitemap and request indexing so people can find it.</li>
+        </ul>
+      </div>
+
+      <p>A <strong>free portfolio website</strong> used to mean a site builder with ads, a long subdomain and a "Made with…" badge you couldn't remove. Today you can build a fast, professional portfolio with <strong>Claude</strong> writing the design and code, and <strong>GitHub Pages</strong> hosting it for free, without writing a line of code yourself.</p>
+      <p>This is exactly how I built the site you're reading. Below, I'll walk you through every click, from the first prompt to getting your site on Google, plus the mistakes I made along the way so you can skip them.</p>
+
+      <h2 id="need">What you need for a free portfolio website</h2>
+      <ul>
+        <li><strong>A Claude account</strong> at claude.ai. The free plan works for a one-page portfolio.</li>
+        <li><strong>A free GitHub account</strong> at github.com.</li>
+        <li><strong>Your content:</strong> a short bio, 2–4 results or projects, screenshots or photos, and your contact details.</li>
+        <li><strong>A professional photo</strong> of yourself (optional, but it builds trust).</li>
+        <li><strong>About 1–2 hours</strong> for the first version.</li>
+      </ul>
+      <p>GitHub Pages is free for public repositories on a free GitHub account (<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener">GitHub Docs</a>). That means anyone can see your site's files, so don't upload anything private.</p>
+
+      <h2 id="how">How it works</h2>
+      <figure>
+        <a href="../../images/blog/free-portfolio-website-github-claude-how-it-works.webp" target="_blank" rel="noopener" title="Open full-size image"><img src="../../images/blog/free-portfolio-website-github-claude-how-it-works.webp" width="1600" height="829" alt="Diagram: Claude writes index.html, you upload it to a GitHub repository, GitHub Pages publishes it, and Google indexes it through Search Console" loading="lazy" decoding="async"></a>
+        <figcaption>The whole process in four parts. Hosting is free; you only pay if you add a custom domain.</figcaption>
+      </figure>
+
+      <h2 id="step-1">Step 1: Gather your portfolio content</h2>
+      <p>Claude can design the page, but it can't invent your results, and it shouldn't. Before you open Claude, put this in one document:</p>
+      <ul>
+        <li><strong>Headline:</strong> what you do and for whom, e.g. "E-commerce SEO specialist for Shopify brands".</li>
+        <li><strong>Short bio:</strong> 3–5 sentences about your experience and location.</li>
+        <li><strong>Proof:</strong> 2–4 projects with real numbers (rankings, traffic, sales, before and after).</li>
+        <li><strong>Screenshots:</strong> results from Google Search Console, Analytics or the live search results.</li>
+        <li><strong>Services:</strong> 3–6 things clients can hire you for.</li>
+        <li><strong>Contact:</strong> email, WhatsApp, LinkedIn or a booking link.</li>
+      </ul>
+
+      <h2 id="step-2">Step 2: Ask Claude to build the page</h2>
+      <p>Open a new chat in Claude, paste your content, and use a prompt like this. The more specific you are, the better the first version.</p>
+      <div class="prompt">
+        <div class="pt"><span>Prompt to copy</span><button type="button" data-copy="p1">Copy</button></div>
+        <pre id="p1">Build me a one-page portfolio website as a single index.html file.
+
+About me: [paste your headline and bio]
+My results: [paste 2–4 projects with numbers]
+Services: [paste your services]
+Contact: [email, WhatsApp, LinkedIn]
+
+Requirements:
+- Sections: hero with my photo, results/case studies, services, about, FAQ, contact
+- Clean, modern design with a warm color palette and good typography
+- Fully responsive on mobile, no horizontal scrolling
+- SEO: a title tag and meta description targeting "[your main keyword]",
+  one H1, logical H2s, alt text on every image, and Person schema
+- Images loaded from an images/ folder (I'll upload them separately)
+- No external frameworks; keep all CSS and JavaScript inside the file</pre>
+      </div>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/01-claude-portfolio-prompt.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/01-claude-portfolio-prompt.webp" width="725" height="503" alt="Screenshot of the portfolio website prompt pasted into a new Claude chat, with the brackets marked for editing" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 1:</b> the prompt pasted into a new Claude chat. Replace every [bracket] with your own details before you press Enter.</figcaption>
+      </figure>
+
+      <h2 id="step-3">Step 3: Review and refine the design with Claude</h2>
+      <p>Claude shows a preview of the page next to the chat. Treat the first version as a draft and ask for changes in plain language. Prompts that worked well for me:</p>
+      <ul>
+        <li>"Make the hero headline mention [keyword] and move my photo to the right."</li>
+        <li>"On mobile my photo is too tall. Keep it in a 4:5 shape and center it."</li>
+        <li>"Put each screenshot in a browser-style frame and let visitors click to enlarge it."</li>
+        <li>"Add an FAQ section with these questions: [paste questions]."</li>
+        <li>"Check the page for SEO: title length, meta description, headings and alt text."</li>
+      </ul>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/02-claude-portfolio-preview.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/02-claude-portfolio-preview.webp" width="1600" height="997" alt="Screenshot of Claude with the chat on the left and a live preview of the Annalyn Bernaldo SEO portfolio website on the right" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 2:</b> Claude explains what it built on the left and shows a live preview of the page on the right. Read its notes; they often list things to check before you publish.</figcaption>
+      </figure>
+      <p class="tip"><b>Tip:</b> Always check the preview on a phone-sized screen. Most visitors will see your portfolio on mobile first.</p>
+
+      <h2 id="step-4">Step 4: Get your files ready</h2>
+      <p>When you're happy with the design, ask Claude: <em>"Give me the final index.html file to download."</em> You can also use the download or copy option at the top of the preview.</p>
+      <p>On your computer, set up a folder that looks like this:</p>
+      <div class="prompt">
+        <div class="pt"><span>Your folder</span></div>
+        <pre>my-portfolio/
+├── index.html        ← your homepage (must be named exactly this)
+└── images/
+    ├── your-name-photo.webp
+    └── project-results.webp</pre>
+      </div>
+      <ul>
+        <li>Name image files in lowercase with hyphens, like <code>annalyn-bernaldo-seo-specialist.webp</code>. Descriptive file names also help in Google Images.</li>
+        <li>Keep images small. Ask Claude to reference <code>.webp</code> images, and convert large photos before uploading. Big images built into the HTML file make the page slow.</li>
+      </ul>
+
+      <h2 id="step-5">Step 5: Create a GitHub repository</h2>
+      <ol>
+        <li>Sign in at github.com, click <strong>+</strong> in the top right, then <strong>New repository</strong>.</li>
+        <li>Choose the name carefully:
+          <ul>
+            <li><code>yourusername.github.io</code> gives you the shortest address: <code>https://yourusername.github.io</code>.</li>
+            <li>Any other name, like <code>portfolio</code>, gives you <code>https://yourusername.github.io/portfolio/</code>.</li>
+          </ul>
+        </li>
+        <li>Set it to <strong>Public</strong>, then click <strong>Create repository</strong>.</li>
+      </ol>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/03-github-create-repository.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/03-github-create-repository.webp" width="810" height="784" alt="Screenshot of GitHub Create a new repository page with the repository name filled in and visibility set to Public" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 3:</b> the new repository form. Type the name, keep visibility on <b>Public</b>, then click <b>Create repository</b>.</figcaption>
+      </figure>
+
+      <h2 id="step-6">Step 6: Upload your files (the right way)</h2>
+      <ol>
+        <li>On the empty repository page, click <strong>uploading an existing file</strong>. If your repo already has files, use <strong>Add file → Upload files</strong>.</li>
+        <li>Open your <code>my-portfolio</code> folder on your computer, <strong>select everything inside it</strong> (Ctrl+A or Cmd+A) and drag it into the upload box.</li>
+        <li>Scroll down and click <strong>Commit changes</strong>.</li>
+      </ol>
+      <p class="tip"><b>The mistake I made:</b> I dragged in the whole folder instead of what was inside it. GitHub then put everything one level too deep, and my site showed a 404 error. Your <code>index.html</code> must sit at the top level of the repository.</p>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/04-github-upload-files.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/04-github-upload-files.webp" width="1155" height="1077" alt="Screenshot of GitHub upload page listing index.html, sitemap.xml and image files ready to commit" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 4:</b> files dragged into the upload page. Check the list shows <code>index.html</code> at the top level, then click <b>Commit changes</b>.</figcaption>
+      </figure>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/05-github-repository-files.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/05-github-repository-files.webp" width="1325" height="834" alt="Screenshot of a GitHub repository with blog, images, index.html and sitemap.xml at the top level and the Add file menu open" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 5:</b> a correctly uploaded repository, with <code>index.html</code> at the top level. The <b>Add file → Upload files</b> menu is how you add or replace files later.</figcaption>
+      </figure>
+
+      <h2 id="step-7">Step 7: Turn on GitHub Pages</h2>
+      <ol>
+        <li>In your repository, click <strong>Settings</strong>, then <strong>Pages</strong> in the left sidebar.</li>
+        <li>Under <em>Build and deployment</em>, set Source to <strong>Deploy from a branch</strong>.</li>
+        <li>Choose the <strong>main</strong> branch and the <strong>/ (root)</strong> folder, then click <strong>Save</strong>.</li>
+        <li>Wait 1–2 minutes and refresh. A message appears at the top: <em>"Your site is live at…"</em> with a <strong>Visit site</strong> button.</li>
+      </ol>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/06-github-pages-settings.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/06-github-pages-settings.webp" width="1122" height="936" alt="Screenshot of GitHub Settings, Pages, with Deploy from a branch, main and root selected and the site live message at the top" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 6:</b> <b>Settings → Pages</b> with <b>Deploy from a branch</b>, <b>main</b> and <b>/ (root)</b> selected. The Custom domain box below is where a domain goes later.</figcaption>
+      </figure>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/07-github-pages-site-live.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/07-github-pages-site-live.webp" width="859" height="179" alt="Screenshot of GitHub Pages showing Your site is live at the github.io address with a Visit site button" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 7:</b> the "Your site is live" message. Click <b>Visit site</b> to open it.</figcaption>
+      </figure>
+
+      <h2 id="step-8">Step 8: Check your live site on desktop and mobile</h2>
+      <p>Open your new address on your computer and on your phone. Click every link and button, open every image, and read every line once more. Check that:</p>
+      <ul>
+        <li>photos aren't stretched or cut off on mobile</li>
+        <li>nothing runs off the right side of the screen</li>
+        <li>your email and WhatsApp links open correctly</li>
+        <li>the browser tab shows your page title</li>
+      </ul>
+
+      <h2 id="step-9">Step 9: Get your site on Google</h2>
+      <p>A site Google doesn't know about won't bring you clients. To speed things up:</p>
+      <ol>
+        <li><strong>Add a sitemap.</strong> Ask Claude for a <code>sitemap.xml</code> that lists your page URLs, and upload it next to <code>index.html</code>.</li>
+        <li><strong>Verify in Search Console.</strong> Go to Google Search Console, add a <strong>URL prefix</strong> property with your full site address, and verify it. The simplest method is to download Google's HTML verification file and upload it to your repository.</li>
+        <li><strong>Submit the sitemap.</strong> Open <em>Sitemaps</em>, type <code>sitemap.xml</code> and click <strong>Submit</strong>. If it says "Couldn't fetch" at first, open the sitemap URL in your browser. If it loads, give Google a day or two.</li>
+        <li><strong>Request indexing.</strong> Paste your homepage URL into the URL Inspection bar and click <strong>Request indexing</strong>.</li>
+      </ol>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/08-search-console-sitemap.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/08-search-console-sitemap.webp" width="928" height="326" alt="Screenshot of Google Search Console Sitemaps page with a sitemap.xml submission and its status" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 8:</b> the Sitemaps page. The site address is already filled in, so type only <code>sitemap.xml</code> in the box. A brand-new sitemap can show "Couldn't fetch" for a day or two before it changes to Success.</figcaption>
+      </figure>
+      <figure class="step-shot">
+        <a href="../../images/blog/github-claude-portfolio/09-search-console-request-indexing.webp" target="_blank" rel="noopener" title="Open full-size screenshot"><img src="../../images/blog/github-claude-portfolio/09-search-console-request-indexing.webp" width="1117" height="484" alt="Screenshot of Google Search Console URL Inspection showing URL is on Google, Page is indexed and the Request indexing link" loading="lazy" decoding="async"></a>
+        <figcaption><b>Screenshot 9:</b> URL Inspection for the homepage. "URL is on Google" means it's indexed. Use <b>Request indexing</b> whenever you publish a big change.</figcaption>
+      </figure>
+      <p>Want to rank for more than your name? Add helpful articles about your specialty. That's why this site has a <a href="../">blog</a>, starting with an <a href="../ecommerce-seo-checklist-shopify/">e-commerce SEO checklist</a>.</p>
+
+      <h2 id="step-10">Step 10: Update your site later</h2>
+      <ul>
+        <li><strong>Small text edits:</strong> on your repository page, press the <strong>.</strong> (period) key to open the github.dev editor. Edit <code>index.html</code>, then use <em>Source Control → Commit &amp; Push</em>.</li>
+        <li><strong>Bigger changes:</strong> ask Claude for the updated file, then use <strong>Add file → Upload files</strong>. Uploading a file with the same name replaces the old one.</li>
+        <li><strong>Custom domain:</strong> buy a domain, add it under <em>Settings → Pages → Custom domain</em>, point its DNS to GitHub and tick <strong>Enforce HTTPS</strong>.</li>
+      </ul>
+      <p>After any upload, wait 1–2 minutes and hard-refresh (Ctrl+Shift+R or Cmd+Shift+R) to see the new version.</p>
+
+      <h2 id="troubleshooting">Troubleshooting</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Problem</th><th>Most likely cause</th><th>Fix</th></tr></thead>
+          <tbody>
+            <tr><td>404 "File not found"</td><td><code>index.html</code> is inside a subfolder, or Pages isn't on yet</td><td>Move files to the top level; check <em>Settings → Pages</em> and wait 2 minutes</td></tr>
+            <tr><td>Images don't show</td><td>File name or folder doesn't match the HTML exactly</td><td>Match names letter by letter; names are case-sensitive</td></tr>
+            <tr><td>Stretched photos on mobile</td><td>CSS forces a fixed image height</td><td>Ask Claude to add <code>height:auto</code> or a fixed aspect ratio</td></tr>
+            <tr><td>Old version still showing</td><td>Browser cache</td><td>Hard-refresh or open the site in a private window</td></tr>
+            <tr><td>Sitemap "Couldn't fetch"</td><td>New site, or wrong sitemap address</td><td>Open the sitemap URL in a browser; if it loads, wait 1–3 days</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="checklist">Free portfolio website checklist before you share it</h2>
+      <ul>
+        <li>Title tag under about 60 characters, with your main keyword</li>
+        <li>Meta description around 150–160 characters</li>
+        <li>One H1, clear H2 sections, and alt text on every image</li>
+        <li>Real results with numbers and screenshots</li>
+        <li>Works on mobile with no stretched images or sideways scrolling</li>
+        <li>Email and WhatsApp links tested</li>
+        <li>Search Console verified, sitemap submitted, indexing requested</li>
+        <li>Link added to your LinkedIn, freelance profiles and email signature</li>
+      </ul>
+      <p style="font-size:15px;color:var(--ink-soft)">Good to know: GitHub Pages sites can be up to 1 GB with a soft bandwidth limit of 100 GB a month, and GitHub says Pages isn't meant for running an online business or handling payments (<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits" target="_blank" rel="noopener">GitHub Pages limits</a>). A portfolio is well within those limits.</p>
+
+      <h2 id="faq">Frequently asked questions</h2>
+      <div class="faq">
+        <details open><summary>Is GitHub Pages really free?</summary><p>Yes. GitHub Pages is free for public repositories on a free GitHub account, including HTTPS. Sites can be up to 1 GB and have a soft bandwidth limit of 100 GB per month, which is far more than a portfolio needs. You only pay if you buy a custom domain.</p></details>
+        <details><summary>Do I need to know how to code?</summary><p>No. Claude writes the HTML and CSS for you, and you upload the files through GitHub's website by dragging and dropping. It helps to read the page Claude creates and ask for changes in plain language.</p></details>
+        <details><summary>Can a GitHub Pages site rank on Google?</summary><p>Yes. Google indexes GitHub Pages sites like any other website. Verify the site in Google Search Console, submit a sitemap and request indexing to speed things up, and make sure the page has a clear title, meta description and headings.</p></details>
+        <details><summary>Can I use my own domain name?</summary><p>Yes. Buy a domain from a registrar, add it under Settings, then Pages, then Custom domain in your repository, point the domain's DNS records to GitHub, and turn on Enforce HTTPS.</p></details>
+        <details><summary>Can I sell products from a GitHub Pages site?</summary><p>No. GitHub says Pages isn't meant to be a free host for running an online business or for sensitive transactions like payments. A personal or freelance portfolio is a good fit.</p></details>
+      </div>
+
+      <h2 id="conclusion">Conclusion</h2>
+      <p>You don't need a paid website builder or coding skills to get a <strong>free portfolio website</strong> that looks professional and can rank on Google. Gather your real results, let Claude design the page, upload it to a public GitHub repository, turn on GitHub Pages and submit it to Search Console. Start simple, publish it this week, and improve it over time. The site you're reading started exactly the same way.</p>
+
+      <p style="font-size:14px;color:var(--ink-soft)">Sources: <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener">GitHub Docs, What is GitHub Pages?</a> · <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits" target="_blank" rel="noopener">GitHub Docs, GitHub Pages limits</a></p>
+
+      <div class="author">
+        <img src="../../images/annalyn-bernaldo-seo-specialist-cebu.webp" width="96" height="96" alt="Annalyn Bernaldo, e-commerce SEO specialist" loading="lazy">
+        <div>
+          <div class="k">About the author</div>
+          <h3>Annalyn Bernaldo</h3>
+          <p>Annalyn is an <a href="../../">e-commerce SEO specialist in the Philippines</a>. She built this portfolio with Claude and GitHub Pages, and writes content that ranks #1 on Google and gets cited in AI Overviews.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <section class="cta">
+    <h2>Want help with your <em>portfolio's SEO?</em></h2>
+    <p>Send me your site and I'll tell you what to fix so it shows up when clients search for you.</p>
+    <div class="row">
+      <a class="btn btn-primary" href="mailto:lhynski@gmail.com">lhynski@gmail.com</a>
+      <a class="btn btn-ghost" href="https://wa.me/639321462392" target="_blank" rel="noopener">WhatsApp +63 932 146 2392</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <a href="../../" class="brand"><span class="dot"></span>Annalyn Bernaldo</a>
+      <div class="foot-meta">E-commerce SEO Specialist · Lapu-Lapu City, Cebu, Philippines · © 2026</div>
+    </div>
+    <div class="foot-links">
+      <a href="../../">Home</a>
+      <a href="../">Blog</a>
+      <a href="../../#faq">FAQ</a>
+      <a href="mailto:lhynski@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.toc a'));
+  if('IntersectionObserver' in window&&links.length){
+    var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('on')});var a=map[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-20% 0px -70% 0px'});
+    Object.keys(map).forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el)});
+  }
+  document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){
+    var t=document.getElementById(b.getAttribute('data-copy')).textContent;
+    (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy'},1800)}).catch(function(){b.textContent='Select & copy'});
+  });});
+})();
+</script>
+</body>
+</html>
