@@ -210,3 +210,18 @@ th{background:var(--card)}
 
 .kicker::before{background:#D1B284}
 .answer{border-left-color:#D1B284}
+
+/* ===== CTA (matches homepage) ===== */
+.cta{background:linear-gradient(160deg,#1F5B4F 0%,#164A41 55%,#0F3A33 100%)!important;border-radius:28px;padding:72px 40px;text-align:center;color:#fff}
+.cta::before{display:none}
+.cta .cta-eyebrow{display:block;font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#9DC88D;margin-bottom:16px}
+.cta h2{color:#fff!important;font-family:'Inter Tight','Inter',sans-serif;font-weight:500;font-size:clamp(30px,4.6vw,50px);letter-spacing:-.03em;line-height:1.08;max-width:760px;margin:0 auto 18px}
+.cta p{color:#C9D6CF!important;font-size:17.5px;font-weight:300;max-width:580px;margin:0 auto 32px}
+.cta .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta .btn{padding:15px 28px;border-radius:100px;font-weight:500;font-size:15.5px;text-decoration:none;transition:transform .25s,background .25s,border-color .25s}
+.cta .cta-main{background:#9DC88D;color:#164A41;box-shadow:none}
+.cta .cta-main:hover{background:#B4D8A6;transform:translateY(-2px)}
+.cta .cta-line{border:1px solid rgba(255,255,255,.3);color:#fff;background:transparent}
+.cta .cta-line:hover{border-color:#fff;transform:translateY(-2px)}
+.cta small{display:block;margin-top:22px;font-size:13.5px;color:#9FB5AC}
+@media(max-width:560px){.cta{padding:52px 22px}.cta .btn{width:100%;justify-content:center}}
