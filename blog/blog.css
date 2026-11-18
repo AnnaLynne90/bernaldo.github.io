@@ -166,3 +166,8 @@ footer{padding:44px 0 38px;border-top:1px solid var(--line);margin-top:70px}
 .steps-nav{display:flex;flex-wrap:wrap;gap:8px}
 .steps-nav span{font-size:13px;background:var(--sand);border:1px solid var(--line);border-radius:100px;padding:5px 12px}
 .prose figure.step-shot img{width:auto;max-width:100%;margin:0 auto;box-shadow:0 18px 40px -28px rgba(54,38,20,.35)}
+
+/* ===== LOGO ===== */
+.brand img{display:block;height:40px;width:auto}
+.brand-foot img{height:64px}
+@media(max-width:760px){.brand img{height:34px}.brand-foot img{height:56px}}
