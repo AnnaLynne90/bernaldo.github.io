@@ -225,3 +225,9 @@ th{background:var(--card)}
 .cta .cta-line:hover{border-color:#fff;transform:translateY(-2px)}
 .cta small{display:block;margin-top:22px;font-size:13.5px;color:#9FB5AC}
 @media(max-width:560px){.cta{padding:52px 22px}.cta .btn{width:100%;justify-content:center}}
+
+/* TL;DR readability */
+.tldr ul{display:flex;flex-direction:column;gap:6px}
+.tldr li{color:#E9F0EC!important;font-size:16.5px;line-height:1.5}
+.tldr strong,.tldr b{color:#9DC88D!important;font-weight:600}
+.tldr a{color:#fff}
