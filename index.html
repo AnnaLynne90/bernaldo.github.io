@@ -504,6 +504,29 @@ dialog.zoom .x{position:absolute;top:-14px;right:-14px;width:40px;height:40px;bo
 @media(max-width:980px){.cpost{flex-basis:calc((100% - 20px)/2)}}
 @media(max-width:640px){.chead{align-items:flex-start;flex-direction:column}.cnav{display:none}.cpost{flex-basis:84%}}
 
+
+/* level 3-column proof row */
+.proof-stack .pcard{min-height:400px}
+@media(max-width:600px){.proof-stack .pcard{min-height:0}}
+.proof-stack{align-items:stretch!important;grid-template-columns:1fr 1fr 1fr!important;gap:20px}
+.proof-stack .pcard{animation:none!important;display:flex;flex-direction:column;height:100%}
+.proof-stack:hover .pcard{transform:none}
+.proof-stack .pcard:hover{transform:translateY(-6px)}
+.gsc .spwrap{margin-top:auto;flex:1;display:flex;align-items:flex-end;padding-top:18px}
+.gsc .spark{height:120px;margin-top:0}
+.gsc .row2{margin-top:12px}
+.serp-mini{justify-content:space-between}
+.serp-mini .aio{margin:6px 0}
+.serp-mini .res{margin-top:0}
+.pc-photo{min-height:100%}
+.pc-photo img{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto!important}
+.pc-photo .cap{z-index:1}
+.res a.t{display:block;color:#1a0dab;text-decoration:none;font-size:15.5px;line-height:1.3;margin:2px 0 6px}
+.res a.t:hover{text-decoration:underline}
+.res a.t span{font-size:12px;color:#4D774E}
+@media(max-width:900px){.proof-stack{grid-template-columns:1fr 1fr!important}.pc-photo{grid-column:span 2;min-height:420px;grid-row:auto}}
+@media(max-width:600px){.proof-stack{grid-template-columns:1fr!important}.pc-photo{grid-column:auto;min-height:440px;max-width:none}}
+
 /* tan accents */
 .stat .n{color:#164A41}.stat:nth-child(odd) .n{color:#164A41}
 .trust .logos small{color:#B39766}
@@ -685,7 +708,7 @@ dialog.zoom .x{position:absolute;top:-14px;right:-14px;width:40px;height:40px;bo
         <div class="lab">Google <span class="tag">Cited</span></div>
         <div class="q"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7672" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>red switch vs brown switch</div>
         <div class="aio"><div class="h"><b>✦</b> AI Overview</div><p><mark>Red is preferred for speed, while brown is better for accuracy</mark> and typing comfort…</p></div>
-        <div class="res"><div class="u">keychron.com › blogs</div><div class="t">Red Switch vs Brown Switch: Key Differences</div><div class="b"><span class="tag">AI Overview</span><span class="tag">People Also Ask</span></div></div>
+        <div class="res"><div class="u">keychron.com › blogs</div><a class="t" href="https://www.keychron.com/blogs/news/red-switch-vs-brown-switch" target="_blank" rel="noopener">Red Switch vs Brown Switch: Key Differences <span aria-hidden="true">↗</span></a><div class="b"><span class="tag">AI Overview</span><span class="tag">People Also Ask</span></div></div>
       </div>
     </div>
 
