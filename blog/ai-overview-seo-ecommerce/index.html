@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Google tag (GA4) -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K32SVDD8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Overview SEO for E-commerce: How to Get Cited by Google</title>
@@ -282,6 +290,18 @@
   var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('on')});var a=map[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-20% 0px -70% 0px'});
   Object.keys(map).forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el)});
 })();
+</script>
+<script>
+// GA4 events: contact clicks, outbound proof links, SEO tool use
+document.addEventListener('click',function(e){
+  var a=e.target.closest('a,button');if(!a||typeof gtag!=='function')return;
+  var h=a.getAttribute('href')||'';
+  if(h.indexOf('mailto:')===0)gtag('event','contact_click',{method:'email',link_text:(a.textContent||'').trim().slice(0,60)});
+  else if(h.indexOf('wa.me')>-1)gtag('event','contact_click',{method:'whatsapp',link_text:(a.textContent||'').trim().slice(0,60)});
+  else if(h.indexOf('linkedin.com')>-1)gtag('event','contact_click',{method:'linkedin'});
+  else if(/^https?:/.test(h)&&h.indexOf('seoannalyst.com')===-1)gtag('event','outbound_click',{link_url:h});
+  if(a.matches('#scForm button[type=submit]'))gtag('event','seo_tool_generate');
+});
 </script>
 </body>
 </html>
